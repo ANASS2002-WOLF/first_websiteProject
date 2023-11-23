@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+
+/* other css file imports */
+
+@import url("sections/headers.css");
+@import url("sections/hero.css");
+@import url("sections/about.css");
+@import url("sections/quality.css");
+@import url("sections/products.css");
+@import url("sections/footer.css");
+
+/* CSS variables */
+
+:root {
+    --primary-color: #508D69;
+    --secondary-color: #9ADE7B;
+    --background-color: #FFEBD8;
+    --header-color: #EEF296;
+    --white-color:#fff;
+    --lora-font :"Lora", serif;
+    --rubik-font: "Rubik", sans-serif;
+    --color-text : #333;
+}
+
+
+
+* , *::after,*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    
+}
+
+body {
+    margin: 0 auto;
+    max-width: auto;
+    overflow-x:hidden ;
+    scroll-behavior: smooth;
+}
+

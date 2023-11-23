@@ -1,0 +1,95 @@
+.footer {
+    background-color: var(--header-color);
+    display: grid;
+    grid-template-columns: 1.5fr 15rem 1fr;
+    align-items: flex-start;
+   gap: 2rem;
+   font-family: var(--rubik-font);
+   padding: 2rem 0.5rem;
+}
+
+.logo__img__footer {
+    width: 20%;
+
+}
+
+
+.footer__logo, .info-text, .form-title {
+    padding-bottom: 2rem;
+}
+
+.info-text, .form-title {
+    color: #14433D;
+}
+
+.footer-cookies {
+    display: flex;
+    font-size: 1rem;
+    list-style: none;
+    gap: 1rem;
+}
+
+.info {
+    list-style: none;
+    text-align: center;
+    color: #14433D;
+}
+
+.info-list {
+    border: 1px solid #14433D;
+    padding: 1rem 3rem;
+    margin-bottom: 0.5rem;
+    
+}
+
+
+.form {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    gap: 5rem;
+    margin-top: 2rem;
+}
+
+
+.input-email {
+   
+    border: none;
+    padding: 2rem 3rem;
+    outline: none;
+}
+.btn-submit {
+    padding: 2rem 3rem;
+   border: none;
+   background-color: black;
+   color: #fff;
+   font-size: 1rem;
+   font-weight: 400;
+}
+
+.footer-link--item1:link, 
+.footer-link--item1:visited, 
+.footer-link--item2:link, 
+.footer-link--item2:visited {
+    text-decoration: none;
+    color: #14433D;
+}
+
+
+
+
+@media screen and (max-width:60rem) {
+.footer {
+    background-color: var(--header-color);
+    display: grid;
+    grid-template-columns: 20rem 1fr;
+    align-items: flex-start;
+   gap: 2rem;
+   font-family: var(--rubik-font);
+   padding: 2rem 0.5rem;
+}
+
+.footer-cookies {
+    display: grid;
+    grid-template-columns: 15rem ;
+}
+}

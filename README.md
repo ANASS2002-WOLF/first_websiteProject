@@ -8,3 +8,10 @@ I :
 - Import CSS files into other CSS files
 - Use flex, Grid  and position properties in CSS
 - Use Javascript for mobile menu navgation
+
+tap in terminal 
+-------------------------------------
+> npm install
+>
+> npm run dev
+

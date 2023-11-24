@@ -9,7 +9,7 @@ I :
 - Use flex, Grid  and position properties in CSS
 - Use Javascript for mobile menu navgation
 
-tap in terminal 
+Open terminal and tap here  
 -------------------------------------
 > npm install
 >

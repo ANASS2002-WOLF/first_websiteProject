@@ -1,5 +1,5 @@
 
-# Redesign and Rebuild a Responsive Website (600px)  Beginner HTML CSS Tutorial on How to Make a Website in 2023
+# Redesign and Rebuild a Responsive Website (600px)|| HTML CSS Javascript Website in 2023
 official website : "https://drinkolipop.com/"|
 
 ## Introduction
